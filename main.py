@@ -11,7 +11,13 @@
 # print("The sum of", num1, "and", num2, "is", sum)
 
 # function
-def sum(num1,num2):
-    print("The sum of", num1, "and", num2, "is", num1 + num2);
-sum(10,40)
+# def sum(num1,num2):
+#     print("The sum of", num1, "and", num2, "is", num1 + num2);
+# sum(10,40)
+
+# List
+item = ["ankit", 10, 20,"Kumar"]
+# print(item)
+# for i in len(0,item):
+#     print(item)
     
