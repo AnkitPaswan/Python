@@ -23,14 +23,22 @@
 
 # Find negative and positive numbers in a list
 
-numbers = [10, -5, 20, -3, 15, -8]
-positive_numbers = []
-negative_numbers = []
+# numbers = [10, -5, 20, -3, 15, -8]
+# positive_numbers = []
+# negative_numbers = []
 
-for num in numbers:
-    if num >= 0:
-        positive_numbers.append(num)
-    else:
-        negative_numbers.append(num)
-print("Positive numbers:", positive_numbers)
-print("Negative numbers:", negative_numbers)
+# for num in numbers:
+#     if num >= 0:
+#         positive_numbers.append(num)
+#     else:
+#         negative_numbers.append(num)
+# print("Positive numbers:", positive_numbers)
+# print("Negative numbers:", negative_numbers)
+
+# Find the largest number in a list
+num = [10, 5, 20, 3, 15, 8]
+largest = num[0]  # Assume the first number is the largest
+for n in num:
+    if n > largest:
+        largest = n
+print("The largest number in the list is:", largest)
