@@ -36,9 +36,17 @@
 # print("Negative numbers:", negative_numbers)
 
 # Find the largest number in a list
+# num = [10, 5, 20, 3, 15, 8]
+# largest = num[0]
+# for n in num:
+#     if n > largest:
+#         largest = n
+# print("The largest number in the list is:", largest)
+
+# Find the smallest number in a list
 num = [10, 5, 20, 3, 15, 8]
-largest = num[0]  # Assume the first number is the largest
+smallest = num[0]
 for n in num:
-    if n > largest:
-        largest = n
-print("The largest number in the list is:", largest)
+    if n < smallest:
+        smallest = n
+print("The smallest number in the list is:", smallest)
