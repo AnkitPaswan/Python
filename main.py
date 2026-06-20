@@ -44,9 +44,17 @@
 # print("The largest number in the list is:", largest)
 
 # Find the smallest number in a list
+# num = [10, 5, 20, 3, 15, 8]
+# smallest = num[0]
+# for n in num:
+#     if n < smallest:
+#         smallest = n
+# print("The smallest number in the list is:", smallest)
+
+# Find the average of numbers in a list
 num = [10, 5, 20, 3, 15, 8]
-smallest = num[0]
+total = 0
 for n in num:
-    if n < smallest:
-        smallest = n
-print("The smallest number in the list is:", smallest)
+    total += n
+average = total / len(num)
+print("The average of the numbers in the list is:", average)  
