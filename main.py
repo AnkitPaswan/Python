@@ -52,9 +52,22 @@
 # print("The smallest number in the list is:", smallest)
 
 # Find the average of numbers in a list
-num = [10, 5, 20, 3, 15, 8]
-total = 0
-for n in num:
-    total += n
-average = total / len(num)
-print("The average of the numbers in the list is:", average)  
+# num = [10, 5, 20, 3, 15, 8]
+# total = 0
+# for n in num:
+#     total += n
+# average = total / len(num)
+# print("The average of the numbers in the list is:", average)  
+
+# Range
+# for i in range(10):
+#   print(i)
+
+#Date and Time
+import datetime
+
+x = datetime.datetime.now()
+print(x)
+print(x.year)
+print(x.strftime("%A"))
+# print(x.strftime("%H:%M:%S"))
