@@ -64,10 +64,30 @@
 #   print(i)
 
 #Date and Time
-import datetime
+# import datetime
 
-x = datetime.datetime.now()
-print(x)
-print(x.year)
-print(x.strftime("%A"))
+# x = datetime.datetime.now()
+# print(x)
+# print(x.year)
+# print(x.strftime("%A"))
 # print(x.strftime("%H:%M:%S"))
+
+#Python class
+# class MyClass:
+#   x = 5
+
+# p1 = MyClass()
+# print(p1.x)
+
+# Delete the p1 object:
+# del p1
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("Ankit", 24)
+
+print(p1.name)
+print(p1.age)
